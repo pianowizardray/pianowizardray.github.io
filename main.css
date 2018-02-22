@@ -1,0 +1,129 @@
+.paragraph {
+          color:red;
+           font-size: 16px;
+        }
+
+        #background {
+        	background-color:#bbccb5;
+        }
+
+        #button {
+        	height: 50px;
+        	width: 116px;
+        	color: white;
+        	background-color: black;
+        	border-radius: 15px;
+        }
+        .header {
+            height:250px;
+            width:99%;
+            border:2px solid black;
+            background-color: #870d0d;
+            margin-bottom: 2000px;
+
+        }
+        .footer {
+            height:250px;
+            width:99%;
+            border:2px solid black;
+            background-color:#870d0d;
+        }
+        .wrap-trivia {
+            height:220px;
+            width:450px;
+            border:5px double yellow;
+            padding: 30px;
+        }
+        .wrap-list {
+            height:370px;
+            width:450px;
+            border:5px dashed green;
+        }
+        .wrap-text {
+            font-size:30px;
+            color=:red;
+        }
+
+        /* Positions.html CSS*/
+
+
+        #rightside{
+
+            float:right;
+            width:35%;
+        }
+
+
+        #leftside{
+
+            width:65%;
+        }
+
+        #clrfloat{
+            clear:both;
+        }
+        
+        #one{
+height: 150px;
+width: 150px;
+background-color: red;
+display: inline-block;
+position: fixed;
+z-index: 1;
+left: 25%;
+}
+
+#two{
+height: 150px;
+width: 150px;
+background-color: #blue;
+display: inline-block;
+position: relative;
+z-index: 2;
+top: 750px;
+}
+
+#three{
+height: 150px;
+width: 150px;
+background-color: #116;
+display: inline-block;
+position: relative;
+}
+
+a {
+    color: blue;
+}
+
+#body{
+height: 2048px;
+    color: black;
+}
+
+.navitem {
+    list-style-type:none;
+    display:inline;
+    padding-right:1.5em;
+}
+
+#navmenu{
+    width:250px;
+    height:30px;
+    margin:auto;
+}
+
+a:link{ 
+color:red;
+} 
+
+a:visited{ 
+color:blue;
+} 
+
+a:hover{ 
+color:purple;
+} 
+
+a:active{ 
+color:orange;
+}

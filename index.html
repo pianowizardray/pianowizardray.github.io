@@ -1,0 +1,140 @@
+<html> 
+<head> 
+	<style>
+
+	</style>
+<title> International Federation of Four Square</title> 
+
+<link type="text/css" rel="stylesheet" href="main.css" />
+
+<script>
+function banner(){ 
+var text = confirm("Don't actually click this, it's just for the lesson. I don't want a link like this in my website. If you're curious, sure, but it's just ESPN."); 
+return text; function answer(){ 
+var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = "";
+for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "kcr" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+
+} //end function answer
+
+
+</script>
+</head> 
+<footer> Copyright 2017 UPI Publications
+All Rights Reserved </footer>
+<body id="background"> 
+	
+<span class="wrap-text"> 
+
+<a href="http://espn.com" onclick="return banner()">
+
+	<h1><header> International Federation of Four Square: #1 Authority on Four Square Worldwide</h1>
+</span>
+
+</header>
+
+</a>
+
+<nav>
+ <ul id="navmenu">
+
+<li class="navitem"> <a href="Home.html"> Home </a> </li>
+
+<li class="navitem"> <a href="Events.html"> Events </a> </li>
+
+<li class="navitem"> <a href="Editorial.html"> Editorial </a> </li>
+
+<li class="navitem"> <a href="Rules.html"> Rules </a> </li>
+
+<li class="navitem"> <a href="Contact_Us.html"> Contact Us </a> </li>
+
+</ul>
+</nav>
+
+<div id="rightside"> 
+
+         <div class="wrap-list">
+<ol>
+    <h4>Top 15[Final Rankings for 2017 Season]</h4>
+
+
+	<li class="listitem">Ray</li>
+	<li class="listitem">Gage</li>
+	<li class="listitem">John T.</li>
+	<li class="listitem">Aaron</li>
+	<li class="listitem">Walter</li>
+	<li class="listitem">Andrew</li>
+	<li class="listitem">Tate</li>
+	<li class="listitem">Wyat</li>
+	<li class="listitem">Ryley</li>
+	<li class="listitem">Mandy</li>
+	<li class="listitem">Katie</li>
+	<li class="listitem">Jacob</li>
+	<li class="listitem">Sally</li>
+	<li class="listitem">Kyle</li>
+	<li class="listitem">Dallin(#3 Preseason, locked)</li>
+                 </ol>
+     </div>
+
+</div>
+
+
+<h3> Official Website of the IFFS</h3>
+<p> The International Federation of Four Square was founded in 2016 by <b>Ray Anderson</b> We've got a lot of people involved, and it's now a group of <u>more than 35 people, spanning from Utah, Canada and clear to Germany</u>. Check out the Rules if you're not familiar, or register to be a member! If you're interested in playing with us, check out our <i> Events Page!</i> Weekly articles by the head server, Dr. Servin U. Storm, are available in our Editorial page!</p> 
+
+
+<h2> IFFA Trivia Question</h2>
+
+<div class="wrap-trivia">
+<p class="paragraph"> What's the highest point total ever recorded in league history(buffer 25)?</p>
+<form>
+<div id="response"> </div> 
+<input type="radio" name="Choice 1" value="kcr"> 250 <br>
+<input type="radio" name="Choice 2" value="200"> 200 <br>
+<input type="radio" name="Choice 3" value="150"> 150 <br>
+<input type="radio" name="Choice 4" value="100"> 100 <br>
+<input type="button" value="Submit Answer" id="button" onclick="answer()">
+</div>
+
+</form>
+
+<img src= "https://lh3.googleusercontent.com/c0g4jttKzfHffa_HfDOq-hX0p8Am5QZSC46j18qxqcWRvltb2bNvlNIM6EVYtSy_F1BmlE0jrt8YjP-RKih2SuOlXn5nolzMN_E41AG8LMHgaTepck-lrvPbzZgbE0fCfD_GHE1AtvCLBE7P2ld4AlLMP0SW7iBDqSyDoLhXGrWaZwFCxANFYcA56lMH35kff4M-eTLbR-FKRgGomp3stZHn14yZhBIETv6P8o_D7QT062BFOCaN02jW3khqIbye3002JOGftqIIGUsyPxeOrCaB40AQKa_c_Gb2zgXlQl1uG36-duGSuK9VMdbyixxOjAosANP0Bpc1AOs5QdmYN0x4RLe55mDM15yn_YPqVY__505SQlm5tQRYtirCp5tmUPHA12_jrZ3wNIJUDOmzquRGBSdB3ZznpLQhGI1DpAMSfDTiqmbxGjfVSZLx0gaKsZ6AGd89sWKJtf20rTMQzuKput2msfEf185I3BJcVwEYoH9dLPh3nQgATbHaiNMd3V6vQApqtnWT2GRQzwBLWtvaHI33cmyZtdRqexPk98OS3P49p0DE0ZECnpiI4XNJHoTVrpv1kxVogO_BwxJCKTk3l9uQYDBKnzQ6XBlb1A=s637-no" />
+
+<img src= "https://lh3.googleusercontent.com/C4qRkMUvYzRWGvJDsBn8tpEaZ4mcY5-PRjufvPkY00hokw9xiRqYtQmigDIPEQojq05IP5t7Goey1yma0AW6K2OHMuJtqsPq08_sM3UUUHNC2CsKSufd4UdSKF8_ImLvgCtetow-Z0s7ERJpBelsr0tdNurFcDOsWzmO33rdLWa-2eHB1JBLBkTh0kS306zNQgJGwHIOPrh_M-_M7Ky0lYO4sOvMzItA51WLKd57P5nIVdFTE4HbgGQwNKTJj89uw93nljJ9r5xq759xSxxY22N_5c5hc-XDELMGHLHUbooARdzVi7y_dTlYqsZj4g68ANSrKbkaIt15pid7WHwkis9p0VyH3Vwh77mBI0T-vqLZ_EGigMuuxeyqizAuKvSC-We-IVd_b4hv6o47cBJbswJCuCXFN0u8u-ErhIMyExpJnsGDMMp4roEkVB8xIoi5HSxarYAqaYuuFY7wIMgt_MEPrVqrzgO3PqRBF9e8CK5GqxwE_FiJ9XMoQRWB6TD7g3ZMiBOtZKl46sYiLwfDmuPIRdng6bS5O5SiQf83LVbvpw-cdGBnpHq5UWSd7jQL27s1r0H6oyOIIXecbQChSFNK4oT8OYzh1-Gb5hOv9g=w959-h637-no" />
+
+<img src= "https://lh3.googleusercontent.com/ylbf-WhzbrCDzaABK4K2HgKOsJAmo2WL8vMitv8SPIMyiVeWgoPiIQMdwt_-kxKJr0B6pTj79hGMeEMwglwMX2Qlu4WilOKD0ODO3DBA2hVa092UGeMU-XpjKPEf1F5995PDhB2e2sCb0keZ1LNFww0MMe3QWdwCbBG3g0ETY8dbN7I8I8qpAevTcnWL83hoW5wTQrcOIDEvXnCbyjqaYq8hnMPTgAVJhmDC6kKrNa9D4_idwRuE0dlIIvE3VvrlqbcmN31wZAX8VHwbo62nvlauHx3e3xWtuw8rXSZXt-V4tsfEkwx_Z79C1Cgmm1ZEHE-1N5uDfeaSKhCvGZZaGqlo2-UYZbkxfZjmKUMwtwpEz2Pw66J6NlpuAJDl5k6Nlym46HtWNcbgokibia_MUNMkqXK9DkwXdbulXY6x7EsXkIqEiVOsPit2Nt6-xWUIJX0kW3Z6QSXQBUOSvygvQ56T1x63Rl4HupWj4z1R-km_KAzDXzkCvUH9hHhx9ap2IdB8Zn7pX5ZwEBqcSCIfRSQd9ZjlM2fr-UiBzhb-HM-Qe_Jguhh75YZ1ltU1y-K_JM_d4WYzBDq7BK1hsxOApAgcV8m5SOBcFPN9VGlQyA=w850-h637-no"
+<hr>
+
+<div id="leftside" >
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NvKRWpFmGho" frameborder="0" allowfullscreen></iframe>
+
+
+</div>
+
+<div id="clrfloat"></div>
+
+
+<center> Ray Anderson <a href="http://www.espn.com/"> espn.com </a> 
+
+</center> 
+
+</body> 
+
+</html>
